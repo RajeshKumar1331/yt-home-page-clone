@@ -56,6 +56,25 @@
 
 }
 
+
+@media(max-width:600px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(min-width : 600px) and (max-width:800px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width : 800px) and (max-width:1200px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .video-card {
 
   display: inline-block;
